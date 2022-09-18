@@ -8,9 +8,13 @@ else:
 
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 
+ADMIN_ID = os.getenv('ADMIN_ID')
+
 DEFAULT_COMMANDS = (
     ('start', "Послать приветственное сообщение"),
-    ('help', "Выводит справку по командам бота")
+    ('help', "Выводит справку по командам бота"),
+    ('tournaments', "Показывает предстоящие турниры"),
+    ('donate', "Задонатить разрабам на снарягу")
 )
 
 PAGES_LIST = [
